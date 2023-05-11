@@ -7,14 +7,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Performance Task</title>
   <!-- Custom CSS -->
-  <link href="static/style.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
   <!-- Custom Fonts -->
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  CODE YOUR results PAGE HERE.
+  <h1>Congratulations!</h1>
+  <h2>{{ user_name }}, you have completed your quiz!</h2>
+  <h3> You are so lucky. This is what you would look like if you where a stylish animal on the go! </h3>
+
+  {% if final_outfit == "111"%}
+    <img src= "/static/images/111.png">
+  {% elif final_outfit == "112"%}
+    <img src= "/static/images/112.png">
+  {% elif final_outfit == "121"%}
+    <img src= "/static/images/121.png">
+  {% elif final_outfit == "122"%}
+    <img src= "/static/images/122.png">
+  {% elif final_outfit == "211"%}
+    <img src= "/static/images/211.png">
+  {% elif final_outfit == "212"%}
+    <img src= "/static/images/212.png">
+  {% elif final_outfit == "221"%}
+    <img src= "/static/images/221.png">
+  {% elif final_outfit == "222"%}
+    <img src= "/static/images/222.png">
+  {% endif %}
+        
 </body>
 
 </html>

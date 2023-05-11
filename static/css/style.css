@@ -1,4 +1,5 @@
 
+@import url('https://fonts.google.com/specimen/Darumadrop+One');
 
 body,
 html {
@@ -8,7 +9,6 @@ html {
 }
 
 body,
-h1,
 h2,
 h3,
 h4,
@@ -16,6 +16,7 @@ h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+  text-align: center;
 }
 
 .topnav {
@@ -26,29 +27,25 @@ h6 {
     font-size: 18px;
     font-weight: 400;
 }
-
+h1{
+  font-family: 'Darumadrop One', serif;
+  font-size: 50px;
+}
 .intro-header {
     text-align: center;
-    color: #f8f8f8;
-    background: url(/static/img/gems.jpg) no-repeat center center;
+    color: #491cc4;
     background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    color:#282828 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#54213c ;
     background-color:rgba(152,152,152, 0.6)
 }
 
-.intro-message > h1 {
-    margin: 0;
-    font-size: 5em;
-
-}
-
-.intro-divider {
+.divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -77,7 +74,7 @@ h6 {
         margin-bottom: 0;
     }
 
-    .intro-divider {
+    .divider {
         width: 100%;
     }
 }
@@ -112,8 +109,7 @@ h6 {
 
 .banner {
     padding: 100px 0;
-    color: grey;
-/*     background: url(../img/gems.jpg) no-repeat center center; */
+    color: #f1d87e;
     background-size: cover;
 }
 
@@ -166,4 +162,31 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.intro-img{
+  height:180px;
+}
+
+h4{
+  text-align: center;
+  text-size: 60px;
+  padding-left:20%;
+  padding-right:20%;
+}
+
+h5{
+  text-align: center;
+  text-size: 50px;;
+  padding-left:25%;
+  padding-right:25%;
+}
+
+input{
+  display: block;  /* Make Block type */
+  margin: auto; 
+  border-radius: 6px;
+  border-width:  3px;
+  padding: 3px;
+  margin-bottom: 20px;
 }
